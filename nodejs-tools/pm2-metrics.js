@@ -3,13 +3,20 @@
 Licensed under the CapollBAY:CapollBot statements.
 */
 
+
 /*
 This "command" would prompt / parse the (specified) information/metrics that the production process manager PM2 can return.
 */
 
-//Specify logic statements like: Switches, if(){}else{} statements.
+/*Dependencies:*/
+const { Client, GatewayIntentBits, Partials, Events, ActivityType } = require('discord.js'); 
+    /*This was created for a DiscordBot : To check the Process Status of the Bot.Main through the mentioned ProcessManager -> PM2*/
+const { EmbedBuilder } = require('discord.js');
+    /*For the Embed that shows the Process Stats*/
 
-//Command begin/process.flow:
+const { exec } = require('child_process');
+
+/*Command Flow:*/
 
     exec('pm2 list', (error, stdlist, stderr) => {
       if (error) {
@@ -46,7 +53,6 @@ This "command" would prompt / parse the (specified) information/metrics that the
 
     
      if(uptime.includes('D') ){uptime = simple_dcounter }
-
 
     /* 
     const codeMetrics = lines
