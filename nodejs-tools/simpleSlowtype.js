@@ -11,20 +11,19 @@ v.0: Phrases will be merged in a Single Word; Add a REgex to detect spaces.
 
 
   if (message.content.includes('!slowtype') && !message.author.bot ) {
-    //const reply = 'This is a slow typing message.';
+
 
     let foie = message.content.split(" ").slice(1).join(" "); 
-    message.delete();
     /*   This is only to Slice the first word input; on this case the !SlowType Trigger. 
         You can avoid this when using on an ExportedModule, or when using another Trigger.
         
         We Still need / use "foie" Variable, this is the Message.Content; so declare it anyways like that. (Or interaction.options.x if using that.)
         
     */
+    message.delete();//We delete the message that triggered this.
+    
     const typingMessage = await message.channel.send('...');
     /* The first text that is sended. Then, the message will be edited to Slowly add the Prompt. */
-    
-    
     /* Through The Simple Bucle.: */
     for (const char of foie) {
       await typingMessage.edit(typingMessage.content + char);
