@@ -3,19 +3,15 @@
 > For Discord.js
 
 
-Similar to the PM2 Metrics "cmd", 
+Similar to the PM2 Metrics "cmd" added for our "Bot", 
 
 Through this we can Prompt the LINUX Welcome Messages, that are located under 
                                                                                     /etc/update-motd.d/
-
-This one, (50-landscape-sysinfo) shows the Disk utilitzation, and Memory Usage,
-
-it also shows the Active Telnet sesions, or users connected to the Machine, 
+This one, (50-landscape-sysinfo) shows the Disk utilitzation, Memory Usage,
+Active Telnet sesions, or users connected to the Machine, 
 Along with the Public IPv4, 
 
 */
-
-
 
 exec('/etc/update-motd.d/50-landscape-sysinfo', (error, stdout, stderr) => {
   if (error) {
@@ -29,10 +25,8 @@ exec('/etc/update-motd.d/50-landscape-sysinfo', (error, stdout, stderr) => {
 
   let filteredOutput = stdout.replace(/\b(?:\d{1,3}\.){3}\d{1,3}\b/g, 'CensoredByCapoAdmins');
   /*
-  var filteredOutput detects via REGEX any String that matches --> 111.111.111.111   (3 Numbers followed by a Dot )
-            
+  var filteredOutput detects via REGEX any String that matches --> 111.111.111.111   (3 Numbers followed by a Dot, 3times, ending with d other 3 digits....).
   This will, of course, filter any IP Addresses
-   
   */
   
   
