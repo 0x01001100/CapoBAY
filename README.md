@@ -35,3 +35,8 @@
       > Desarróllate en este amplio campo profesional
 
       > Crece con nosotros
+
+
+· ¡Únete a través del Siguiente Link!
+            https://discord.gg/ERkHgsRdHz
+
