@@ -18,7 +18,20 @@
            ███████    █████ ██ ██████      ████      ███ █  ███ █          █  ████████    █████ ██     ████ ███  
              ███       ███   ████            ▓        ███    ███          █     ████       ███   ██          ███ 
               ▐                ██                      ▓      ▓           █                           ████▓   ███
-                               ██                                          █                        ███▓ ███ ▓██    ▄ ▀ ▄ ▀ 
+                               ██                                          █                        ███▓ ███ ▓██    ▄ ▀ ▄ 
                                 █▓                                          ██                     █▓     ████   
                                 ▓                                            ▓                     ▓              
                                 ▌
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+> Participa en nuestra Comunidad de Discord
+
+      > Colabora en nuestros proyectos y talleres
+
+      > Desarróllate en este amplio campo profesional
+
+      > Crece con nosotros
