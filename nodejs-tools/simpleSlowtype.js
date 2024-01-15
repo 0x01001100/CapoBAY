@@ -37,6 +37,6 @@ v.0: Phrases will be merged in a Single Word; Add a REgex to detect spaces.
   }
 
 
-/*Indeed, im just testing Github so im creating this just as a test; You can appreciate how Stupid this "DiscordCommand" is */
+/*Indeed, we are just testing Github CodeSpaces so im creating this just as a test; You can appreciate how Stupid this "DiscordCommand" is */
 /* 
 */
